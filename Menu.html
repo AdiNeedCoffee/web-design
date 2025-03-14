@@ -1,0 +1,137 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Menu Utama</title>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"  
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">  
+    <style>  
+        body {  
+            background-color: #0e0504;  
+            margin: 0;  
+            font-family: Arial, sans-serif;  
+        }  
+
+        .container {  
+            max-width: 1200px;  
+            margin: auto;  
+            padding: 20px;  
+            background: #fffdf0;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+        }  
+
+        h1,  
+        h2 {  
+            text-align: center;  
+        }  
+
+        h1 {  
+            font-size: 2.5rem;  
+            margin: 20px 0;  
+        }  
+
+        h2 {  
+            font-size: 2rem;  
+            margin: 20px 0;  
+        }  
+
+        .grid {  
+            display: grid;  
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+            gap: 20px;  
+        }  
+
+        .card {  
+            background: #815b5b;  
+            padding: 15px;  
+            border-radius: 10px;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+            text-align: center;  
+        }  
+
+        .coffee-image {  
+            height: 200px;  
+            object-fit: cover;  
+            border-radius: 10px;  
+            width: 100%;  
+        }  
+
+        .button {  
+            background-color: #0e0504;  
+            color: white;  
+            padding: 10px;  
+            border: none;  
+            border-radius: 5px;  
+            display: block;  
+            margin-top: 10px;  
+            text-decoration: none;  
+            text-align: center;  
+        }  
+
+        .button:hover {  
+            background-color: #854836;  
+        }  
+
+        .text-center {  
+            text-align: center;  
+        }  
+
+        p {  
+            margin: 10px 0;  
+        }  
+
+       
+        .center-align {  
+            display: flex;  
+            justify-content: center; 
+        }  
+
+        .payment-options {  
+            display: flex; 
+            justify-content: center; 
+            align-items: start; 
+            gap: 20px;  
+        }  
+    </style>  
+</head>  
+
+<body>  
+    <div class="container">  
+        <h1>Menu Utama</h1>  
+
+        <h2>Jenis Biji Kopi</h2>  
+        <div class="grid">  
+            <div class="card">  
+                <img class="pure-img" src="2.Lady_Farmer_Coffee_Arabika_.jpg" alt="Kopi Arabica" class="coffee-image" />  
+                <h3>Arabica</h3>  
+                <p>Memiliki rasa manis dan keasaman yang seimbang, cocok untuk pencinta kopi berkualitas.</p>  
+            </div>  
+            <div class="card">  
+                <img class="pure-img" src="robusta.jpeg" alt="Kopi Robusta" class="coffee-image" />  
+                <h3>Robusta</h3>  
+                <p>Kopinya lebih kuat dan pahit, memiliki kandungan kafein lebih tinggi dan cocok untuk espresso.</p>  
+            </div>  
+            <div class="card">  
+                <img class="pure-img" src="01-zfymVJC-20240723.jpg" alt="Kopi Liberika" class="coffee-image" />  
+                <h3>Liberika</h3>  
+                <p>Memiliki aroma yang unik dan rasa fruity, kurang populer tapi menggoda bagi yang mencintai eksperimen.</p>  
+            </div>  
+        </div>  
+
+        <h2>Menu Pemesanan</h2>  
+        <div class="center-align">  
+            <div class="grid" style="max-width: 400px; width: 100%;">  
+                <div class="card">  
+                    <h3>Pemesanan Biji Kopi</h3>  
+                    <p>Silakan klik untuk melakukan pemesanan kopi favorit Anda.</p>  
+                    <a href="Pemesanan.html" class="button">Pesan Sekarang</a>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</body>  
+
+</html>  

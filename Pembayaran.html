@@ -1,0 +1,121 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Pembayaran</title>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"  
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">  
+    <style>  
+        body {  
+            background-color: #fffdf0;  
+            margin: 0;  
+            font-family: Arial, sans-serif;  
+        }  
+
+        .container {  
+            max-width: 600px;  
+            margin: auto;  
+            padding: 20px;  
+            background: white;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+        }  
+
+        h1 {  
+            font-size: 2.5rem;  
+            text-align: center;  
+            margin-bottom: 20px;  
+            color: #603f26;  
+        }  
+
+        p {  
+            margin-bottom: 10px;  
+        }  
+
+        .text-center {  
+            text-align: center;  
+        }  
+
+        a {  
+            color: #603f26;  
+            text-decoration: none;  
+        }  
+
+        a:hover {  
+            text-decoration: underline;  
+        }  
+
+        .payment-options {  
+            display: flex; 
+            justify-content: space-between; 
+            gap: 20px; 
+            flex-wrap: wrap; 
+            margin-top: 20px;
+        }  
+
+        .card {  
+            background: #815b5b;  
+            padding: 15px;  
+            border-radius: 10px;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+            text-align: center;  
+            flex: 1; 
+            min-width: 200px; 
+            max-width: 300px; 
+        }  
+
+        .button {  
+            background-color: #815b5b;  
+            color: white;  
+            padding: 5px;  
+            border: none;  
+            border-radius: 5px;  
+            display: inline-block;  
+            margin-top: 10px;  
+            text-decoration: none; 
+            text-align: center;  
+            width: 50%;
+        }  
+
+        .button:hover {  
+            background-color: #4a2d20;  
+        }  
+    </style>  
+</head>  
+
+<body>  
+    <div class="container">  
+        <h1>Opsi Pembayaran</h1>  
+        <p>Pilih metode pembayaran:</p>  
+        <div class="payment-options">  
+            <div class="card">  
+                <h3>Transfer Bank</h3>  
+                <p>Pembayaran melalui transfer ke rekening bank kami.</p>  
+                <a href="Pembayaran.html" class="button">Pilih Metode</a>  
+            </div>  
+
+            <div class="card">  
+                <h3>QRIS</h3>  
+                <p>Pembayaran cepat menggunakan QRIS.</p>  
+                <a href="Pembayaran_QRIS.html" class="button">Pilih Metode</a>  
+            </div>  
+            <div class="card">  
+                <h3>E-Wallet</h3>  
+                <p>Pembayaran melalui e-wallet seperti OVO, DANA, atau Gopay.</p>  
+                <a href="Pembayaran_EWallet.html" class="button">Pilih Metode</a>  
+            </div>  
+            <div class="card">  
+                <h3>E-Commerce</h3>  
+                <p>Pembayaran melalui platform e-commerce seperti Tokopedia dan Bukalapak.</p>  
+                <a href="Pembayaran_ECommerce.html" class="button">Pilih Metode</a>  
+            </div>  
+        </div>  
+        <p class="text-center">  
+            <a href="Menu.html">Kembali ke Menu Utama</a>  
+        </p>  
+    </div>  
+</body>  
+
+</html>  

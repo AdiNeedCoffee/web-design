@@ -1,0 +1,89 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Pemesanan - Jual Biji Kopi</title>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"  
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">  
+    <style>  
+        body {  
+            background-color: #fffdf0;  
+            margin: 0;  
+            font-family: Arial, sans-serif;  
+        }  
+
+        .container {  
+            max-width: 600px;  
+            margin: auto;  
+            padding: 20px;  
+            background: white;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+        }  
+
+        h1 {  
+            font-size: 2.5rem;  
+            text-align: center;  
+            margin-bottom: 20px;  
+        }  
+
+        label {  
+            font-weight: bold;  
+            display: block;  
+            margin-bottom: 8px;  
+        }  
+
+        input[type="number"],  
+        select,  
+        textarea {  
+            width: 100%;  
+            padding: 10px;  
+            margin-bottom: 15px;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
+        }  
+
+        .button {  
+            background-color: #815b5b;  
+            color: white;  
+            padding: 10px;  
+            border: none;  
+            border-radius: 5px;  
+            cursor: pointer;  
+            width: 100%;  
+            text-align: center;  
+            display: inline-block; 
+            text-decoration: none; 
+        }  
+
+        .button:hover {  
+            background-color: #603f26;  
+        }  
+
+        .text-center {  
+            text-align: center;  
+        }  
+    </style>  
+</head>  
+
+<body>  
+    <div class="container">  
+        <h1>Pemesanan</h1>  
+        <form class="pure-form pure-form-aligned">  
+            <label for="coffeeType">Pilih Jenis Biji Kopi:</label>  
+            <select id="coffeeType" required>  
+                <option value="" disabled selected>Pilih jenis biji kopi</option>  
+                <option value="arabica">Arabica</option>  
+                <option value="robusta">Robusta</option>  
+                <option value="liberika">Liberika</option>  
+            </select>  
+            <input type="number" placeholder="Jumlah (gr)" required>  
+            <textarea placeholder="Pesan tambahan"></textarea>  
+            <a href="Pembayaran.html" class="button">Pesan</a>
+        </form>  
+    </div>  
+</body>  
+
+</html>  
